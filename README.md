@@ -1,6 +1,6 @@
 # Market-Trend-Analysis-and-Price-Prediction-on-Used-Cars
 
-This project aims to analyze market trends in the used car market and develop a predictive model for estimating car prices based on various features. By understanding factors affecting prices, this analysis can assist car buyers, sellers, and dealers in making informed decisions.
+This project aims to analyze market trends in the used car market and develop a predictive model for estimating car prices based on various features. By understanding factors affecting prices, this analysis can assist car buyers, sellers, and dealers make informed decisions.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -31,7 +31,7 @@ The data for this project was obtained through web scraping. Details of the data
 
 This scraped dataset is the basis for analyzing market trends and building machine-learning models for price prediction.
 
-## FEatures
+## Features
 
 1. **Name**: Contains information about the car's year, make, and model.
 2. **Trim**: Specifies different pre-packaged groups of features available for a particular car.
@@ -45,4 +45,48 @@ This scraped dataset is the basis for analyzing market trends and building machi
 10. **City**: The city where the car is listed for sale.
 
 These attributes form the basis for market trend analysis and price prediction in this project.
+
+## Methodology
+
+The project follows these main steps:
+
+1. **Web Scraping**:
+   - Data was collected by scraping car listing information from [Cars24](https://www.cars24.com/) using BeautifulSoup and Selenium.
+
+2. **Data Preprocessing**:
+   - Cleaning the data and handling missing values.
+   - Preparing the dataset for analysis by scaling numerical features and selecting relevant features.
+
+3. **Feature Engineering**:
+   - Created new features from existing ones to enhance model performance.
+
+4. **Exploratory Data Analysis (EDA)**:
+   - Analyzed the distribution of car prices to understand price patterns.
+   - Identified key features that significantly impact car prices.
+   - Visualized trends across different car models, brands, and locations.
+
+5. **Data Transformation**:
+   - Transformed data as needed, including encoding and scaling, to improve model performance.
+
+6. **Outlier Detection**:
+   - Identified outliers using the Interquartile Range (IQR) and box plot methods.
+
+7. **Outlier Treatment**:
+   - Applied log transformation to handle outliers and normalize the data distribution.
+
+8. **Correlation Analysis**:
+   - Analyzed feature correlations by plotting a heatmap to understand relationships between variables.
+
+9. **Model Building**:
+   - Trained and evaluated several machine learning models:
+     - **Decision Trees**
+     - **Random Forests** (with and without hyperparameter tuning)
+     - **XGBoost** (with and without hyperparameter tuning)
+   - Used cross-validation to assess and compare model performance.
+
+10. **Model Evaluation**:
+    - Evaluated models using metrics like Mean Squared Error (MSE) and R-squared to assess accuracy.
+    - Selected the best-performing model based on test set performance after evaluating both tuned and untuned versions of each model.
+
+This methodology ensures a thorough analysis and comparison of models, providing insights into market trends and accurate predictions for used car prices.
   
