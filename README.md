@@ -11,13 +11,12 @@ This project aims to analyze market trends in the used car market and develop a 
 6. [Installation](#installation)
 7. [Usage](#usage)
 8. [Results](#results)
-9. [Future Work](#future-work)
-10. [Contributing](#contributing)
-11. [License](#license)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ## Project Overview
 
-The used car market is complex and influenced by factors such as make, model, age, mileage, condition, and location. This project provides:
+The used car market is complex and influenced by make, model, age, mileage, condition, and location. This project provides:
 - **Market Trend Analysis**: Insight into price patterns across car makes, models, and locations.
 - **Price Prediction**: A machine learning model to predict car prices based on selected features, providing a helpful tool for stakeholders.
 ## Data Collection
@@ -97,8 +96,17 @@ Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Installation 
-git clone https://github.com/yourusername/used-car-price-prediction.git
-cd used-car-price-prediction
+
+-git clone https://github.com/tasneem-badar/Market-Trend-Analysis-and-Price-Prediction-on-Used-Cars.git
+-cd used-car-price-prediction
+
+## Usage
+
+To run the analysis and model on the dataset, follow these steps:
+
+**Run Data Analysis**:
+   - Open and execute the Jupyter Notebook `Market Trend analysis & price prediction on used cars.ipynb` to visualize trends in car prices across different features. This notebook provides insights into price distribution, feature correlations, and market trends for used cars.
+
   
