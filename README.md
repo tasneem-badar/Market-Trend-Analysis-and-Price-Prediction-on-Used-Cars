@@ -17,10 +17,9 @@ This project aims to analyze market trends in the used car market and develop a 
 
 ## Project Overview
 
-The used car market is complex and influenced by various factors, such as make, model, age, mileage, condition, and location. This project provides:
-- **Market Trend Analysis**: Insight into price patterns across different car makes, models, and locations.
+The used car market is complex and influenced by factors such as make, model, age, mileage, condition, and location. This project provides:
+- **Market Trend Analysis**: Insight into price patterns across car makes, models, and locations.
 - **Price Prediction**: A machine learning model to predict car prices based on selected features, providing a helpful tool for stakeholders.
-- 
 ## Data Collection
 
 The data for this project was obtained through web scraping. Details of the data collection process are as follows:
@@ -30,19 +29,19 @@ The data for this project was obtained through web scraping. Details of the data
 - **Libraries Used**: The scraping was done using **BeautifulSoup** and **Selenium** to extract relevant details, including make, model, year, mileage, condition, location, and price.
 - **Coverage**: Information on used cars was scraped from listings across **11 different cities**, providing a broad view of regional market trends and pricing.
 
-This scraped dataset serves as the basis for analyzing market trends and building machine learning models for price prediction.
+This scraped dataset is the basis for analyzing market trends and building machine-learning models for price prediction.
 
-## Description of Attributes in the Dataset
+## FEatures
 
-1. **Name**: Contains information about the year, make, and model of the car.
+1. **Name**: Contains information about the car's year, make, and model.
 2. **Trim**: Specifies different pre-packaged groups of features available for a particular car.
-3. **Transmission**: Indicates the type of transmission, either Automatic or Manual.
-4. **kms_driven**: The total number of kilometers driven by the car.
-5. **ownership_status**: The number of previous owners of the vehicle.
-6. **fuel_type**: The type of fuel used by the car (e.g., petrol, diesel, CNG).
-7. **emi_per_month**: The estimated EMI (Equated Monthly Installment) payment to be made per month.
+3. **Transmission**: Indicates the transmission type, either Automatic or Manual.
+4. **kms_driven**: The total number of kilometres driven by the car.
+5. **ownership_status**: The number of previous vehicle owners.
+6. **fuel_type**: The type of fuel the car uses (e.g., petrol, diesel, CNG).
+7. **emi_per_month**: The estimated EMI (Equated Monthly Installment) payment to be made monthly.
 8. **original_price**: The original price of the car when first sold.
-9. **reduced_price**: The reduced price of the car, reflecting its current valuation.
+9. **reduced_price**: The reduced price of the car reflects its current valuation.
 10. **City**: The city where the car is listed for sale.
 
 These attributes form the basis for market trend analysis and price prediction in this project.
