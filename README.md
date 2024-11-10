@@ -89,4 +89,16 @@ The project follows these main steps:
     - Selected the best-performing model based on test set performance after evaluating both tuned and untuned versions of each model.
 
 This methodology ensures a thorough analysis and comparison of models, providing insights into market trends and accurate predictions for used car prices.
+
+## Requirements
+
+- Python 3.x
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+
+## Installation 
+git clone https://github.com/yourusername/used-car-price-prediction.git
+cd used-car-price-prediction
   
