@@ -11,7 +11,7 @@ This project aims to analyze market trends in the used car market and develop a 
 6. [Installation](#installation)
 7. [Usage](#usage)
 8. [Results](#results)
-9. [Contributing](#contributing)
+9. [Contributions](#contributions)
 10. [License](#license)
 
 ## Project Overview
@@ -99,14 +99,20 @@ pip install -r requirements.txt
 ```
 ## Installation 
 
--git clone https://github.com/tasneem-badar/Market-Trend-Analysis-and-Price-Prediction-on-Used-Cars.git
--cd used-car-price-prediction
+git clone https://github.com/tasneem-badar/Market-Trend-Analysis-and-Price-Prediction-on-Used-Cars.git
+cd used-car-price-prediction
 
 ## Usage
 
-To run the analysis and model on the dataset, follow these steps:
+Open and execute the Jupyter Notebook `Market Trend analysis & price prediction on used cars.ipynb` to visualize trends in car prices across different features. This notebook provides insights into price distribution, feature correlations, and market trends for used cars.
 
-**Run Data Analysis**:
-   - Open and execute the Jupyter Notebook `Market Trend analysis & price prediction on used cars.ipynb` to visualize trends in car prices across different features. This notebook provides insights into price distribution, feature correlations, and market trends for used cars.
+## Contributions
+Contributions are welcome! Please feel free to open issues or submit pull requests for improvements.
+
+## License 
+---
+
+This template includes all essential sections, from project overview and methodology to installation and usage instructions. You can customize it further based on your project specifics, such as adding details about the dataset source, model performance, and any additional features you plan to add. Let me know if you need more specific adjustments!
+
 
   
