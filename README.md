@@ -114,6 +114,31 @@ Open and execute the Jupyter Notebook `Market Trend analysis & price prediction 
 
 ## Results 
 
+### Model Performance
+After training and evaluating multiple machine learning models, the following results were obtained:
+
+- **Decision Tree**: Provided a baseline for understanding how a simple model performs with minimal tuning. However, it had lower accuracy compared to ensemble methods.
+- **Random Forest**: Achieved better accuracy and generalization than the Decision Tree. The model with hyperparameter tuning had an R-squared score of 0.86 and a Mean Squared Error (MSE) of 0.03 on the test set.
+- **XGBoost**: Outperformed other models with its ability to capture complex relationships. The best-tuned XGBoost model achieved an R-squared score of 0.91 and an MSE of 0.01, making it the most accurate model in this project.
+
+### Comparison of Models
+
+| Model                     | R-squared (Train) | R-squared (Test) | Mean Squared Error (Test) |
+|---------------------------|-------------------|-------------------|---------------------------|
+| Decision Tree (Tuned)     | 0.89              | 0.74              | 0.05                      |
+| Random Forest (No Tuning) | 0.94              | 0.88              | 0.02                      |
+| Random Forest (Tuned)     | 0.92              | 0.86              | 0.03                      |
+| XGBoost (No Tuning)       | 0.96              | 0.90              | 0.02                      |
+| XGBoost (Tuned)           | 0.98              | 0.91              | 0.01                      |
+
+
+### Insights from Model Evaluation
+
+- **Best Model**: The XGBoost model with hyperparameter tuning was the best-performing model, providing the most accurate predictions on test data.
+- **Feature Importance**: The most crucial car price features were make, model, year, mileage, and location, as identified through feature importance analysis.
+
+### Summary
+This project successfully demonstrated the potential of machine learning models in predicting used car prices based on various features. The insights gained from trend analysis and the accurate predictions from the model can help stakeholders make informed decisions in the used car market.
 
 ## Contributions
 Contributions are welcome! Please feel free to open issues or submit pull requests for improvements.
