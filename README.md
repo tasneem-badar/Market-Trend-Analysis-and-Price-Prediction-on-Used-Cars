@@ -21,11 +21,12 @@ This project aims to analyze market trends in the used car market and develop a 
 The used car market is complex and influenced by make, model, age, mileage, condition, and location. This project provides:
 - **Market Trend Analysis**: Insight into price patterns across car makes, models, and locations.
 - **Price Prediction**: A machine learning model to predict car prices based on selected features, providing a helpful tool for stakeholders.
+
+-----------------------
 ## Data Collection
 
 The data for this project was obtained through web scraping. Details of the data collection process are as follows:
 
----------------------------
 ### 1. Web Scraping
 - **Source**: Data was scraped from the [Cars24 website](https://www.cars24.com/), which provides detailed listings of used cars available for sale across various cities.
 - **Libraries Used**: The scraping was done using **BeautifulSoup** and **Selenium** to extract relevant details, including make, model, year, mileage, condition, location, and price.
